@@ -1,15 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <h1>{{ msg }}</h1>
+  <ImageCompo :list_items="items"> </ImageCompo>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import ImageCompo from './components/image.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
+    ImageCompo
+  },
+  data(){
+    return{
+      msg: 'HelloWorld',
+      items: [
+        'Hey, do not rush to make decisions!',
+        'There is time for everything!',
+        'I know you know it!',
+        'React vs Vue JeonJeng!',
+        'Spring vs Node',
+        'deung deung deung...'
+      ]
+    }
+
   }
 }
 </script>
