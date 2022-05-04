@@ -16,14 +16,14 @@ export default {
   },
   data(){
     return{
-      msg: 'HelloWorld',
+      msg: 'Items List',
       items: [
         'Hey, do not rush to make decisions!',
-        'There is time for everything!',
-        'I know you know it!',
-        'React vs Vue JeonJeng!',
-        'Spring vs Node',
-        'deung deung deung...'
+        'There is time for everything! So, hurry up!',
+        'I know you know it! I know you know not it!',
+        'React vs Vue OR React vs Vue but not Angular',
+        'Spring vs Node OR Spring vs Node',
+        'Deung deung deung... deung deung deung...'
       ]
     }
 
